@@ -33,4 +33,8 @@
  */
 export function calculateAutoFare(distance, waitingMinutes = 0) {
   // Your code here
+  if(waitingMinutes<0) return-1;
+  if(distance<0) return -1;
+  let waitingCost = 0;
+  if()  
 }
